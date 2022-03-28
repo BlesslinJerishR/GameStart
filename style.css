@@ -1,0 +1,28 @@
+body{
+    background: #1d1e21;
+    color: #fff;
+    font-size: 50px;
+    font-family: impact;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.red{
+    color: red;
+}
+
+/* Hide Scroll bar through Magic */
+
+html {
+    overflow: hidden;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
