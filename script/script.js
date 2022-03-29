@@ -10,7 +10,7 @@ gstop.addEventListener('click',() => {
 });
 
 $(document).ready(function(){
-    $("h1").dblclick(function(e){
+    $("*").dblclick(function(e){
         e.preventDefault();
     });
-)};
+});
