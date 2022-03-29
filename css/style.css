@@ -15,7 +15,7 @@ body{
 /* Hide Scroll bar through Magic */
 
 html {
-    overflow: hidden;
+    overflow: scroll;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
