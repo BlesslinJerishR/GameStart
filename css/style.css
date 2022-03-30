@@ -1,4 +1,4 @@
-body{
+body {
     background: #1d1e21;
     color: #fff;
     font-size: 50px;
@@ -7,9 +7,10 @@ body{
     justify-content: center;
 }
 
-.red{
+.red {
     color: red;
 }
+
 
 /* Hide Scroll bar through Magic */
 
@@ -17,12 +18,66 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
 
-.carousel-item{
+.carousel-item {
     height: 60vh !important;
     width: 40vh !important;
+}
+
+h1 {
+    position: relative;
+    font-size: 1.5em;
+    top: 2vh;
+}
+
+#game1 img {
+    border: 1px solid #F00;
+    display: flexbox;
+    height: 50vh;
+    position: absolute;
+    top: 37vh;
+    left: 10vh;
+    width: 40vh;
+}
+
+#game2 img {
+    border: 1px solid #F00;
+    display: flexbox;
+    height: 50vh;
+    position: absolute;
+    top: 37vh;
+    left: 60vh;
+    width: 40vh;
+}
+
+#game3 img {
+    border: 1px solid #F00;
+    display: flexbox;
+    height: 50vh;
+    position: absolute;
+    top: 37vh;
+    left: 110vh;
+    width: 40vh;
+}
+
+#game4 img {
+    border: 1px solid #F00;
+    display: flexbox;
+    height: 50vh;
+    position: absolute;
+    top: 37vh;
+    left: 160vh;
+    width: 40vh;
+}
+
+p {
+    font-size: 0.3em;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 1vh;
 }
